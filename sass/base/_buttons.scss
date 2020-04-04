@@ -1,0 +1,31 @@
+.portfolio-nav {
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 17px;
+}
+
+.portfolio-nav__link {
+    margin-right: 8px;
+    @extend %transition;
+    @extend %font-prim;
+    @include font($size: 1.2rem, $height: 2.2rem, $weight: 400);
+    background: $color-bg-portfolio;
+    color: $color-portfolio-text;
+    border: 1px solid $color-portfolio-text;
+    border-radius: 6px;
+    padding: 0 6px 2px 8px;
+    text-align: justify;
+    &:hover {
+        @extend %transition;
+        color: $color-logo;
+        border: 1px solid $color-logo;
+        border-radius: 4px;
+    }
+}
+
+.portfolio-nav__link_active {
+    color: $color-logo;
+    border: 1px solid $color-logo;
+    border-radius: 4px;
+    @include font($size: 1.2rem, $height: 1.8rem, $weight: 400);
+}

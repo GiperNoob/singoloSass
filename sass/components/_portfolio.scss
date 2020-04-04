@@ -1,6 +1,7 @@
 .header-portfolio {
     background: $color-bg-portfolio;
     border-bottom: 6px solid #323746;
+    padding-bottom: 48px;
 }
 
 .portfolio-box {
@@ -9,7 +10,6 @@
 
 .portfolio-box__title {
     color: $color-portfolio-text;
-    @include font($size: 3rem, $height: 1.8rem, $weight: 900);
     padding-bottom: 26px;
 }
 

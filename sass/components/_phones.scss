@@ -5,6 +5,7 @@
 
 .phones__wrapper {
     @include columns($width: 0%);
+    flex-wrap: nowrap;
     padding-top: 51px;
     padding-bottom: 59px;
 }

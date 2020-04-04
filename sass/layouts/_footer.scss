@@ -1,0 +1,23 @@
+.footer {
+    background: $color-bg-footer;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 23px;
+}
+
+.footer__text {
+    color: $color-portfolio-sub-title;
+    @include font($size: 1.2rem, $height: 2.2rem, $weight: 400);
+}
+
+.footer-nav {
+    @include columns($width: 10%);
+}
+
+.footer-nav__link {
+    margin-left: 8px;
+}

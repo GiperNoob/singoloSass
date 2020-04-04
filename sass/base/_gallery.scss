@@ -1,0 +1,7 @@
+.gallery-list {
+    @include columns($width: 23%);
+}
+
+.gallery-list__items {
+    margin-bottom: 20px;
+}
