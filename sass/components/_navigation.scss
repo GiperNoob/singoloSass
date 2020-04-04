@@ -1,0 +1,22 @@
+.navigation {
+    padding-top: 35px;
+    padding-bottom: 29px;
+    @include columns($width: 10%);
+}
+
+.navigation__link {
+    &:hover {
+        color: $color-hover;
+        @extend %transition;
+    }
+    margin-left: 28px;
+    padding-top: 5px;
+    color: $color-logo;
+    text-decoration: none;
+    text-transform: uppercase;
+    @include font($size: 1.2rem, $height: 0.6rem, $weight: 700);
+}
+
+.navigation__link_active {
+    color: $color-hover;
+}

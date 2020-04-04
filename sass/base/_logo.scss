@@ -1,0 +1,16 @@
+.header__logo {
+    padding-top: 24px;
+    padding-bottom: 29px;
+    h1 {
+        text-transform: uppercase;
+        color: $color-logo;
+        cursor: pointer;
+    }
+    span {
+        color: $color-hover;
+    }
+    > *:hover {
+        color: $color-hover;
+        @extend %transition;
+    }
+}

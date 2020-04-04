@@ -1,0 +1,19 @@
+// abstacts
+@import "abstract/mixin";
+@import "abstract/placeholders";
+@import "abstract/constants";
+
+// base
+@import "base/dumping";
+@import "base/base";
+@import "base/logo";
+
+// layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+
+// components
+@import "components/navigation";
+@import "components/phones";
+@import "components/services";
+@import "components/portfolio";
