@@ -6,8 +6,8 @@
     background: $color-bg-inputs;
     color: $color-form-text;
     width: 100%;
-    max-width: 620px;
-    max-height: 37px;
+    width: 620px;
+    height: 37px;
     margin-bottom: 17px;
     border: 1px solid $color-bg-inputs;
     border-radius: 6px;
@@ -30,8 +30,8 @@
     color: $color-form-text;
     resize: none;
     width: 100%;
-    max-width: 620px;
-    max-height: 203px;
+    width: 620px;
+    height: 203px;
     border: 1px solid $color-bg-inputs;
     border-radius: 6px;
     padding: 6px 0 0 14px;
@@ -45,12 +45,10 @@
 }
 
 .button-submit {
-    max-width: 100px;
-    max-height: 50px;
+    width: 100px;
+    height: 50px;
     @extend %font-prim;
     @include font($size: 1.2rem, $height: 2.2rem, $weight: 400);
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
     color: $color-form-text;
     background: $color-bg-inputs;
     border: 1px solid $color-bg-inputs;

@@ -208,8 +208,8 @@ h3 {
   background: #d6564f;
   color: #f0d8d9;
   width: 100%;
-  max-width: 620px;
-  max-height: 37px;
+  width: 620px;
+  height: 37px;
   margin-bottom: 17px;
   border: 1px solid #d6564f;
   border-radius: 6px;
@@ -263,8 +263,8 @@ h3 {
   color: #f0d8d9;
   resize: none;
   width: 100%;
-  max-width: 620px;
-  max-height: 203px;
+  width: 620px;
+  height: 203px;
   border: 1px solid #d6564f;
   border-radius: 6px;
   padding: 6px 0 0 14px;
@@ -307,14 +307,12 @@ h3 {
 }
 
 .button-submit {
-  max-width: 100px;
-  max-height: 50px;
+  width: 100px;
+  height: 50px;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.2rem;
   font-style: normal;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
   color: #f0d8d9;
   background: #d6564f;
   border: 1px solid #d6564f;
