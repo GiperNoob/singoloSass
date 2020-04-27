@@ -19,16 +19,18 @@
                 <h1>singolo<span>*</span></h1>
             </div>
             <nav class="header__navigation">
-                <ul class="navigation">
-                    <li><a href="#" class="navigation__link navigation__link_active">home</a></li>
-                    <li><a href="#" class="navigation__link">services</a></li>
-                    <li><a href="#" class="navigation__link">portfolio</a></li>
-                    <li><a href="#" class="navigation__link">about</a></li>
-                    <li><a href="#" class="navigation__link">contact</a></li>
+                <ul class="navigation" id="menu">
+                    <li><a href="#home" class="navigation__link navigation__link_active">home</a></li>
+                    <li><a href="#services" class="navigation__link">services</a></li>
+                    <li><a href="#portfolio" class="navigation__link">portfolio</a></li>
+                    <li><a href="#about" class="navigation__link">about</a></li>
+                    <li><a href="#contact" class="navigation__link">contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <div class="pusto"> <a name='home'></a></div>
 
     <!-- phones -->
     <section class="phones">
@@ -38,6 +40,7 @@
             <div><img src="img/phones/iPhone_horizontal.png" alt="" class="phones__gorizont"></div>
             <div><img src="img/phones/right-arrow.png" alt="" class="phones-arrow right-arrow"></div>
         </div>
+        <a href="#" name='services'></a>
     </section>
 
     <!-- services -->
@@ -142,25 +145,27 @@
 
     <!--  header-portfolio -->
     <div class="header-portfolio">
+        <a href="#" name='portfolio'></a>
         <div class="wrapper header-portfolio__wrapper">
             <div class="portfolio-box">
                 <h2 class="portfolio-box__title">Portfolio</h2>
                 <p class="portfolio-box__sub-title">Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
                     eget lacinia odio sem nec elit.</p>
                 <nav class="header-portfolio__navigation">
-                    <ul class="portfolio-nav">
-                        <li><button class="portfolio-nav__link portfolio-nav__link_active">All</button></li>
-                        <li"><button class="portfolio-nav__link">Web Design</button></li">
-                        <li><button class="portfolio-nav__link">Graphic Design</button></li>
-                        <li><button class="portfolio-nav__link">Artwork</button></li>
+                    <ul class="portfolio-nav" id="galery">
+                        <li><button class="portfolio-nav__link portfolio-nav__link_active" id="all">All</button></li>
+                        <li"><button class="portfolio-nav__link" id="web">Web Design</button></li">
+                        <li><button class="portfolio-nav__link" id="graphic">Graphic Design</button></li>
+                        <li><button class="portfolio-nav__link" id="art">Artwork</button></li>
                     </ul>
                 </nav>
             </div>
 
             <!--gallery-portfolio-->
             <section class="gallery-portfolio">
-                <ul class="gallery-list">
-                    <li class="gallery-list__items"><img src="img/galery/up01.png" alt="" class="gallery-list__ico">
+                <ul class="gallery-list" id="gallery-list">
+                    <li class="gallery-list__items"><img src="img/galery/up01.png" alt=""
+                            class="gallery-list__ico gallery-list__ico_active">
                     </li>
                     <li class="gallery-list__items"><img src="img/galery/up02.png" alt="" class="gallery-list__ico">
                     </li>
@@ -192,6 +197,7 @@
     <!-- about us section -->
     <!-- about us header -->
     <section class="about-us">
+        <a href="#" name='about'></a>
         <div class="wrapper about-us__wrapper">
             <div class="about-us-header">
                 <h2 class="about-us-header__title">About Us</h2>
@@ -250,6 +256,7 @@
 
     <!-- singolo part 3 Form. Start -->
     <section class="contacts">
+        <a href="#" name='contact'></a>
         <div class="wrapper contacts__wrapper">
             <div class="contacts-header">
                 <h2 class="contacts-header__title">Get a Quote</h2>
@@ -314,6 +321,7 @@
         </div>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>

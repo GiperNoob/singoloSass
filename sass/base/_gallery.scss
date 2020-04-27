@@ -5,3 +5,14 @@
 .gallery-list__items {
     margin-bottom: 20px;
 }
+
+// .gallery-list__items:nth-child(-n + 8) {
+//     opacity: 0;
+// }
+
+.gallery-list__ico_active {
+    width: 220px;
+    height: 187px;
+    border: 5px solid #F06C64;
+    box-sizing: border-box;
+}

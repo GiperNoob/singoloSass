@@ -1,6 +1,10 @@
 .header {
     background: $color-bg-header;
     border-bottom: 6px solid #323746;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header__wrapper {
@@ -8,4 +12,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.pusto {
+    height: 96px;
 }
