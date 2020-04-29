@@ -16,3 +16,10 @@ galeryPictures.addEventListener('click', (event) => {
     galeryPictures.querySelectorAll('img').forEach(el => el.classList.remove('gallery-list__ico_active'));
     event.target.classList.add('gallery-list__ico_active');
 })
+
+const phonesScreen = document.getElementById('phones');
+const horizontal = document.getElementById('circle-horizontal');
+horizontal.addEventListener('click', (event) => {
+    phonesScreen.querySelectorAll('img').forEach(el => el.classList.remove('screen1-horizontal_opacity'));
+    event.target.classList.add('screen1-horizontal_opacity');
+})

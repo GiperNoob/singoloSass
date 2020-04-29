@@ -43,3 +43,15 @@
 .box-nav__link {
     margin-right: 5px;
 }
+
+.box-img {
+    transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.box-img:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

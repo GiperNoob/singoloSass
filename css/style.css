@@ -346,6 +346,7 @@ h3 {
 
 .gallery-list__items {
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .gallery-list__ico_active {
@@ -476,7 +477,7 @@ h3 {
   color: #f06c64;
 }
 
-.phones {
+#phones {
   background: #f06c64;
   border-bottom: 6px solid #ea676b;
 }
@@ -667,6 +668,19 @@ h3 {
 
 .box-nav__link {
   margin-right: 5px;
+}
+
+.box-img {
+  transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.box-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .contacts {

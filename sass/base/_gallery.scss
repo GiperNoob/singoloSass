@@ -4,11 +4,8 @@
 
 .gallery-list__items {
     margin-bottom: 20px;
+    overflow: hidden;
 }
-
-// .gallery-list__items:nth-child(-n + 8) {
-//     opacity: 0;
-// }
 
 .gallery-list__ico_active {
     width: 220px;
