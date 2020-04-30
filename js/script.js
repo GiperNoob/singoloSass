@@ -17,9 +17,15 @@ galeryPictures.addEventListener('click', (event) => {
     event.target.classList.add('gallery-list__ico_active');
 })
 
-const phonesScreen = document.getElementById('phones');
-const horizontal = document.getElementById('circle-horizontal');
-horizontal.addEventListener('click', (event) => {
-    phonesScreen.querySelectorAll('img').forEach(el => el.classList.remove('screen1-horizontal_opacity'));
-    event.target.classList.add('screen1-horizontal_opacity');
-})
+let screenH = document.getElementById('screenH')
+let buttonH = document.querySelector('#circleH');
+buttonH.onclick = function() {
+    screenH.style.display = (screenH.style.display == 'block') ? 'none' : 'block';
+
+}
+
+let screenV = document.getElementById('screenV');
+let buttonV = document.querySelector('#circleV');
+buttonV.onclick = function() {
+    screenV.style.display = (screenV.style.display == 'block') ? 'none' : 'block';
+}

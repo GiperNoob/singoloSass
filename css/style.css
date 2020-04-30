@@ -510,6 +510,34 @@ h3 {
   cursor: pointer;
 }
 
+#circleH {
+  position: absolute;
+  top: 355px;
+  left: 676px;
+}
+
+#screenH {
+  position: absolute;
+  top: 278px;
+  left: 723px;
+  display: none;
+}
+
+#circleV {
+  position: absolute;
+  top: 555px;
+  left: 453px;
+}
+
+#screenV {
+  position: absolute;
+  top: 279px;
+  left: 304px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  display: none;
+}
+
 .services {
   background: #f2f2f2;
   border-bottom: 6px solid #ffffff;
@@ -671,9 +699,9 @@ h3 {
 }
 
 .box-img {
-  transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
+  transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
 }
 
 .box-img:hover {
