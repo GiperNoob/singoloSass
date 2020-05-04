@@ -44,7 +44,7 @@
             <div><img src="img/phones/iPhone_horizontal.png" alt="" class="phones__horizontal"></div>
             <div><img src="img/phones/right-arrow.png" alt="" class="phones-arrow right-arrow"></div>
         </div>
-        <a href="#" name='services'></a>
+        <a href="#" name='services' class="servicesPos"></a>
     </section>
 
     <!-- services -->
@@ -138,6 +138,7 @@
                             viverra nibh. Fusce vitae aliquam
                             tellus.
                         </p>
+                        <a href="#" name='portfolio'></a>
                     </div>
                 </div>
             </div>
@@ -149,18 +150,18 @@
 
     <!--  header-portfolio -->
     <div class="header-portfolio">
-        <a href="#" name='portfolio'></a>
         <div class="wrapper header-portfolio__wrapper">
             <div class="portfolio-box">
                 <h2 class="portfolio-box__title">Portfolio</h2>
                 <p class="portfolio-box__sub-title">Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
                     eget lacinia odio sem nec elit.</p>
                 <nav class="header-portfolio__navigation">
-                    <ul class="portfolio-nav" id="galery">
-                        <li><button class="portfolio-nav__link portfolio-nav__link_active" id="all">All</button></li>
-                        <li"><button class="portfolio-nav__link" id="web">Web Design</button></li">
-                        <li><button class="portfolio-nav__link" id="graphic">Graphic Design</button></li>
-                        <li><button class="portfolio-nav__link" id="art">Artwork</button></li>
+                    <ul class="portfolio-nav" id="gallery">
+                        <li><button class="portfolio-nav__link portfolio-nav__link_active" data-type="All">All</button>
+                        </li>
+                        <li"><button class="portfolio-nav__link" data-type="Web">Web Design</button></li">
+                        <li><button class="portfolio-nav__link" data-type="Graphic">Graphic Design</button></li>
+                        <li><button class="portfolio-nav__link" data-type="Art">Artwork</button></li>
                     </ul>
                 </nav>
             </div>
@@ -168,32 +169,43 @@
             <!--gallery-portfolio-->
             <section class="gallery-portfolio">
                 <ul class="gallery-list" id="gallery-list">
-                    <li class="gallery-list__items"><img src="img/galery/up01.png" alt=""
-                            class="gallery-list__ico gallery-list__ico_active">
+                    <li class="gallery-list__items" data-type="Web"><img src="img/galery/up01.png" alt=""
+                            class="gallery-list__ico gallery-list__ico_active"></li>
+                    <li class="gallery-list__items" data-type="Graphic"><img src="img/galery/up02.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/up02.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Web"><img src="img/galery/up03.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/up03.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Art"><img src="img/galery/up04.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/up04.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Graphic"><img src="img/galery/mid01.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/mid01.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Art"><img src="img/galery/mid02.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/mid02.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Web"><img src="img/galery/mid03.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/mid03.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Art"><img src="img/galery/mid04.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/mid04.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Graphic"><img src="img/galery/down01.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/down01.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Web"><img src="img/galery/down02.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/down02.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Art"><img src="img/galery/down03.png" alt=""
+                            class="gallery-list__ico">
                     </li>
-                    <li class="gallery-list__items"><img src="img/galery/down03.png" alt="" class="gallery-list__ico">
-                    </li>
-                    <li class="gallery-list__items"><img src="img/galery/down04.png" alt="" class="gallery-list__ico">
+                    <li class="gallery-list__items" data-type="Graphic"><img src="img/galery/down04.png" alt=""
+                            class="gallery-list__ico">
                     </li>
                 </ul>
+                <a href="#" name='about'></a>
             </section>
         </div>
     </div>
@@ -201,7 +213,6 @@
     <!-- about us section -->
     <!-- about us header -->
     <section class="about-us">
-        <a href="#" name='about'></a>
         <div class="wrapper about-us__wrapper">
             <div class="about-us-header">
                 <h2 class="about-us-header__title">About Us</h2>
@@ -251,6 +262,7 @@
                         <a href="#" class="box-nav__link"><img src="img/iconsWebs/google.png" alt=""></a>
                         <a href="#" class="box-nav__link"><img src="img/iconsWebs/twitter.png" alt=""></a>
                         <a href="#" class="box-nav__link"><img src="img/iconsWebs/linkedin.png" alt=""></a>
+                        <a href="#" name='contact' class="contactPos"></a>
                     </nav>
                 </div>
             </div>
@@ -260,7 +272,6 @@
 
     <!-- singolo part 3 Form. Start -->
     <section class="contacts">
-        <a href="#" name='contact'></a>
         <div class="wrapper contacts__wrapper">
             <div class="contacts-header">
                 <h2 class="contacts-header__title">Get a Quote</h2>
